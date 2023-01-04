@@ -2,8 +2,8 @@
 
 | Network | Nodes    | Weight    |  Sizes | Structure |
 | :---         |     :---       |     :---       |     :---       |      :---:   |
-| [Trade1985](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985.net)   | country    | export USD    | n = 192, m = 12743    | [str](https://github.com/bavla/ibm3m/blob/master/data/str/KRACKAD.md)     |
-| [Trade1985cn](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985cn.net)   | country    | export USD    | n = 192, m = 12743      | [str](https://github.com/bavla/ibm3m/blob/master/data/str/KRACKFR.md)     |
+| [Trade1985](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985.net)   | country    | export USD    | n = 192, m = 12743    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
+| [Trade1985cn](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985cn.net)   | country    | export USD    | n = 192, m = 12743      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
 
 ## Trade1985
 Jiang, X. R., Yang, Y. C., Wang, S. L. Trade Network Dataset Development in 227 Countries and Regions (1985-2015)[J]. 
