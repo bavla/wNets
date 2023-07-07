@@ -1,7 +1,7 @@
 # Weighted network data sets
 
 * [Network data sets](http://vladowiki.fmf.uni-lj.si/doku.php?id=vlado:ed:ss:dat)
-* [Sources]()
+* [Sources](https://github.com/BS-SNS/Public/tree/main/data)
 
 
 | Network | Nodes    | Weight    |  Sizes | Description |
