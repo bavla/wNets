@@ -1,5 +1,9 @@
 # Weighted network data sets
 
+* [Network data sets](http://vladowiki.fmf.uni-lj.si/doku.php?id=vlado:ed:ss:dat)
+* [Sources]()
+
+
 | Network | Nodes    | Weight    |  Sizes | Description |
 | :---         |     :---       |     :---       |     :---       |      :---:   |
 | [Trade1985](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985.net)   | country    | export USD    | n = 192, m = 12743    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
