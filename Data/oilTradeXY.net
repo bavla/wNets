@@ -1,3 +1,6 @@
+% Oil trade (more than 1 EJ)
+% Pajek format by Vladimir Batagelj
+% Spinaker summer school, Krakow 2023
 *Vertices 12
   1 "USA"                                    0.1797    0.3853    0.5000
   2 "Canada"                                 0.1439    0.1975    0.5000
