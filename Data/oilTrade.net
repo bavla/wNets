@@ -1,0 +1,35 @@
+% Oil trade (more than 1 EJ)
+% Pajek format by Vladimir Batagelj
+% Spinaker summer school, Krakow 2023
+*vertices 12
+ 1 "USA"
+ 2 "Canada"
+ 3 "Latin America"
+ 4 "Europe"
+ 5 "Middle East\nNorth Africa"
+ 6 "Sub-Saharan\nAfrica"
+ 7 "Former\nSoviet Union"
+ 8 "Indian\nsubcontinent"
+ 9 "Centrally\nplaned Asia"
+10 "South Asia"
+11 "Japan"
+12 "Australia\nNew Zealand"
+*arcs
+ 1  3  1.1
+ 2  1  4.6
+ 3  1  9.5
+ 3  4  1.1
+ 5  1  6.1
+ 5  4 10.8
+ 5  6  1.8
+ 5  8  5.0
+ 5  9  3.0
+ 5 10 11.5
+ 5 11  9.0
+ 6  4  1.5
+ 6  1  4.1
+ 6  9  1.5
+ 6  8  1.2
+ 7  4 12.2
+10  9  1.3
+10 12  1.0
