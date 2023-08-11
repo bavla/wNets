@@ -29,3 +29,6 @@ Transformed into Pajek format by Vladimir Batagelj.
 ## WT
 
 Aggregated world trade data from [BACI / CEPII](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37). Weight is the trade flow (in thousands current USD). Transformed into Pajek format by Vladimir Batagelj, Fri Aug 11, 2023.
+
+WTyears contains a network for each year; WTtimes contains a single temporal network for all years. The countries are labeled using ISO 2-character codes.
+ISO3.nam contains ISO 3-character codes, and countries.nam the long names.
