@@ -3,6 +3,13 @@
 * [Network data sets](http://vladowiki.fmf.uni-lj.si/doku.php?id=vlado:ed:ss:dat)
 * [Sources](https://github.com/BS-SNS/Public/tree/main/data)
 
+## Weighted networks
+
+| Network | Nodes | Edges | Arcs | Weight | Description |
+| :---         |     :---       |     :---       |     :---       |     :---       |      :---:   |
+| [EAT](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm)   | ?    | ? | ? | frequency     | [str](https://github.com/bavla/ibm3m/blob/master/data/str/VisTest.md)     |
+| [Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm)   | ?    | ? | ? | frequency     | [str](https://github.com/bavla/ibm3m/blob/master/data/str/VisTest.md)     |
+
 
 | Network | Nodes    | Weight    |  Sizes | Description |
 | :---         |     :---       |     :---       |     :---       |      :---:   |
