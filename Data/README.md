@@ -1,5 +1,6 @@
 # Weighted network data sets
 
+* [Network data sets](https://github.com/bavla/Nets/tree/master/data)
 * [Network data sets](http://vladowiki.fmf.uni-lj.si/doku.php?id=vlado:ed:ss:dat)
 * [Sources](https://github.com/BS-SNS/Public/tree/main/data)
 
