@@ -58,6 +58,7 @@ starwars-links.csv: Captures the interactions between characters with the follow
 - character2: Name or ID of the second character.
 - scenes: Number of scenes in which both characters appear together.
 
+Sources
 - https://www.kaggle.com/datasets/mexwell/star-wars-network/versions/1
 - https://github.com/chatox/networks-science-course/tree/master/practicum/data/starwars
 - https://github.com/evelinag/star-wars-network-data
