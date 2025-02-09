@@ -45,11 +45,10 @@ ISO3.nam contains ISO 3-character codes, and countries.nam the long names.
 ## StarWars 
 
 (undirected with loops)
-nodes: characters from the Star Wars universe; links: coappearance;
-weight: Number of scenes in which the character appears / both characters appear together.\ 
+**nodes:** characters from the Star Wars universe; **links:** coappearance; **weight:** Number of scenes in which the character appears / both characters appear together.<br />
 Transformed into Pajek format by Vladimir Batagelj, Sun Feb 9, 2025.
 
-The Star Wars Network dataset provides a unique opportunity for social network analysis using characters from the Star Wars universe. The dataset comprises two CSV files:\n\nstarwars-characters.csv: Contains a list of characters with the following columns:\n\n- number: Unique identifier for each character.\n- name: The name of the character.\n- scenes: Number of scenes in which the character appears.\n\nstarwars-links.csv: Captures the interactions between characters with the following columns:\n\n- character1: Name or ID of the first character.\n- character2: Name or ID of the second character.\n- scenes: Number of scenes in which both characters appear together.\n\nThis dataset is well-suited for building a social network graph that maps out character interactions and relationships based on their shared screen time.
+The Star Wars Network dataset provides a unique opportunity for social network analysis using characters from the Star Wars universe. The dataset comprises two CSV files:\n\nstarwars-characters.csv: Contains a list of characters with the following columns:<br />- number: Unique identifier for each character.<br />- name: The name of the character.<br />- scenes: Number of scenes in which the character appears.<br />starwars-links.csv: Captures the interactions between characters with the following columns:<br />- character1: Name or ID of the first character.<br />- character2: Name or ID of the second character.<br />- scenes: Number of scenes in which both characters appear together.
 
 - https://www.kaggle.com/datasets/mexwell/star-wars-network/versions/1
 - https://github.com/chatox/networks-science-course/tree/master/practicum/data/starwars
