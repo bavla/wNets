@@ -19,7 +19,7 @@
 | [Trade1985cn](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985cn.net)   | country    | export USD    | n = 192, m = 12743      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
 | [WTyears](https://raw.githubusercontent.com/bavla/wNets/main/Data/WTyears.zip)   | country    | export USD    | n = 238, y = 27    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 | [WTtime](https://raw.githubusercontent.com/bavla/wNets/main/Data/WRtime.zip)   | country    | export USD    | n = 238, y = 27      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
-| [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # coaapearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
+| [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
 
 ## Trade1985
 
