@@ -48,7 +48,15 @@ ISO3.nam contains ISO 3-character codes, and countries.nam the long names.
 **nodes:** characters from the Star Wars universe; **links:** coappearance; **weight:** Number of scenes in which the character appears / both characters appear together.<br />
 Transformed into Pajek format by Vladimir Batagelj, Sun Feb 9, 2025.
 
-The Star Wars Network dataset provides a unique opportunity for social network analysis using characters from the Star Wars universe. The dataset comprises two CSV files:\n\nstarwars-characters.csv: Contains a list of characters with the following columns:<br />- number: Unique identifier for each character.<br />- name: The name of the character.<br />- scenes: Number of scenes in which the character appears.<br />starwars-links.csv: Captures the interactions between characters with the following columns:<br />- character1: Name or ID of the first character.<br />- character2: Name or ID of the second character.<br />- scenes: Number of scenes in which both characters appear together.
+The Star Wars Network dataset provides a unique opportunity for social network analysis using characters from the Star Wars universe. The Kaggle dataset comprises two CSV files:<br />starwars-characters.csv: Contains a list of characters with the following columns:
+- number: Unique identifier for each character.
+- name: The name of the character.
+- scenes: Number of scenes in which the character appears.
+
+starwars-links.csv: Captures the interactions between characters with the following columns:
+- character1: Name or ID of the first character.
+- character2: Name or ID of the second character.
+- scenes: Number of scenes in which both characters appear together.
 
 - https://www.kaggle.com/datasets/mexwell/star-wars-network/versions/1
 - https://github.com/chatox/networks-science-course/tree/master/practicum/data/starwars
