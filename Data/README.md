@@ -6,9 +6,6 @@
 
 ## Weighted networks
 
-| Network | Nodes | Edges | Arcs | Weight | Description |
-| :---         |     :---       |     :---       |     :---       |     :---       |      :---:   |
-| [Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm)   | ?    | ? | ? | frequency     | [str](https://github.com/bavla/ibm3m/blob/master/data/str/VisTest.md)     |
 
 
 
@@ -16,7 +13,8 @@
 
 | Network | Nodes    | Weight    |  Sizes | Description |
 | :---         |     :---       |     :---       |     :---       |      :---:   |
-| [EAT](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985.net)   | word    | assoc. frequency | n =  23219, mA =325589, m0 = 564   |  [desc](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm)     |
+| [EAT](https://raw.githubusercontent.com/bavla/wNets/main/Data/EATnewSR.net)   | word    | assoc. frequency | n =  23219, mA =325589, m0 = 564   |  [desc](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/eat/Eat.htm)     |
+| [Football](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm)   | country    | # players | ?      | [desc](http://vlado.fmf.uni-lj.si/pub/networks/data/sport/football.htm)     |
 | [Trade1985](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985.net)   | country    | export USD    | n = 192, m = 12743    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
 | [Trade1985cn](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985cn.net)   | country    | export USD    | n = 192, m = 12743      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
 | [WTyears](https://raw.githubusercontent.com/bavla/wNets/main/Data/WTyears.zip)   | country    | export USD    | n = 238, y = 27    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
