@@ -18,6 +18,7 @@
 | [Trade1985cn](https://raw.githubusercontent.com/bavla/wNets/main/Data/Trade1985cn.net)   | country    | export USD    | n = 192, m = 12743      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#trade1985)     |
 | [WTyears](https://raw.githubusercontent.com/bavla/wNets/main/Data/WTyears.zip)   | country    | export USD    | n = 238, y = 27    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 | [WTtime](https://raw.githubusercontent.com/bavla/wNets/main/Data/WRtime.zip)   | country    | export USD    | n = 238, y = 27      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
+| [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # coaapearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 
 ## Trade1985
 
@@ -41,9 +42,11 @@ Aggregated world trade data from [BACI / CEPII](http://www.cepii.fr/CEPII/en/bdd
 WTyears contains a network for each year; WTtimes contains a single temporal network for all years. The countries are labeled using ISO 2-character codes.
 ISO3.nam contains ISO 3-character codes, and countries.nam the long names.
 
-## StarWars (undirected with loops)
+## StarWars 
+
+(undirected with loops)
 nodes: characters from the Star Wars universe; links: coappearance;
-weight: Number of scenes in which the character appears / both characters appear together.\n
+weight: Number of scenes in which the character appears / both characters appear together.\ 
 Transformed into Pajek format by Vladimir Batagelj, Sun Feb 9, 2025.
 
 The Star Wars Network dataset provides a unique opportunity for social network analysis using characters from the Star Wars universe. The dataset comprises two CSV files:\n\nstarwars-characters.csv: Contains a list of characters with the following columns:\n\n- number: Unique identifier for each character.\n- name: The name of the character.\n- scenes: Number of scenes in which the character appears.\n\nstarwars-links.csv: Captures the interactions between characters with the following columns:\n\n- character1: Name or ID of the first character.\n- character2: Name or ID of the second character.\n- scenes: Number of scenes in which both characters appear together.\n\nThis dataset is well-suited for building a social network graph that maps out character interactions and relationships based on their shared screen time.
