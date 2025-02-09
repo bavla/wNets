@@ -36,9 +36,15 @@ Transformed into Pajek format by Vladimir Batagelj.
 
 ## WT
 
+Aggregated world trade data from [BACI / CEPII](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37). Weight is the trade flow (in thousands current USD). Transformed into Pajek format by Vladimir Batagelj, Fri Aug 11, 2023.
+
+WTyears contains a network for each year; WTtimes contains a single temporal network for all years. The countries are labeled using ISO 2-character codes.
+ISO3.nam contains ISO 3-character codes, and countries.nam the long names.
+
 ## StarWars (undirected with loops)
 nodes: characters from the Star Wars universe; links: coappearance;
-weight: Number of scenes in which the character appears / both characters appear together.
+weight: Number of scenes in which the character appears / both characters appear together.\n
+Transformed into Pajek format by Vladimir Batagelj, Sun Feb 9, 2025.
 
 The Star Wars Network dataset provides a unique opportunity for social network analysis using characters from the Star Wars universe. The dataset comprises two CSV files:\n\nstarwars-characters.csv: Contains a list of characters with the following columns:\n\n- number: Unique identifier for each character.\n- name: The name of the character.\n- scenes: Number of scenes in which the character appears.\n\nstarwars-links.csv: Captures the interactions between characters with the following columns:\n\n- character1: Name or ID of the first character.\n- character2: Name or ID of the second character.\n- scenes: Number of scenes in which both characters appear together.\n\nThis dataset is well-suited for building a social network graph that maps out character interactions and relationships based on their shared screen time.
 
@@ -47,7 +53,3 @@ The Star Wars Network dataset provides a unique opportunity for social network a
 - https://github.com/evelinag/star-wars-network-data
 
 
-Aggregated world trade data from [BACI / CEPII](http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37). Weight is the trade flow (in thousands current USD). Transformed into Pajek format by Vladimir Batagelj, Fri Aug 11, 2023.
-
-WTyears contains a network for each year; WTtimes contains a single temporal network for all years. The countries are labeled using ISO 2-character codes.
-ISO3.nam contains ISO 3-character codes, and countries.nam the long names.
