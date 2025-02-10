@@ -20,6 +20,11 @@
 | [WTyears](https://raw.githubusercontent.com/bavla/wNets/main/Data/WTyears.zip)   | country    | export USD    | n = 238, y = 27    | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 | [WTtime](https://raw.githubusercontent.com/bavla/wNets/main/Data/WRtime.zip)   | country    | export USD    | n = 238, y = 27      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 | [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
+| [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
+| [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | similarity    | n = 3000, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
+
+
+
 
 ## Trade1985
 
@@ -64,4 +69,19 @@ Sources
 - https://github.com/chatox/networks-science-course/tree/master/practicum/data/starwars
 - https://github.com/evelinag/star-wars-network-data
 
+## Spotify
+
+Spotify's top 3000 music genres - Network / closest 10 neighbors
+
+From [Kaggle](https://www.kaggle.com/datasets/georgeggcoco/closeness-of-music-genres/versions/1) (2023-08-04T13:27:45.393).
+
+This dataset was created based on the work done by [Glenn McDonald](https://furia.com)  over on his website [Every Noise at Once](https://everynoise.com/everynoise1d.cgi). 
+George G Coco created and used this dataset for an [interactive network of music genres](https://chartingsounds.streamlit.app).
+
+The dataset includes 3000 music genres in a square grid of dimensions `3000 x 3000` which essentially works as a Heat-Map:
+  - Rows and Column names are the names of music genres (by popularity, desc)
+  - The values are an abstract 'distance'. A small value means those genres are closely related. A big value means those genres are not related.
+  - If you're interested in how exactly this value was calculated, you can read about it in the Provenance section of this dataset.
+
+Converted into Pajek format by Vladimir Batagelj (mat2Pajek Mon Feb 10 15:33:27 2025). 
 
