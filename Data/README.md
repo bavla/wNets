@@ -21,7 +21,7 @@
 | [WTtime](https://raw.githubusercontent.com/bavla/wNets/main/Data/WRtime.zip)   | country    | export USD    | n = 238, y = 27      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 | [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
 | [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
-| [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | similarity    | n = 3000, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
+| [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | similarity    | n = 3000, mA = 30000      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
 
 
 
@@ -84,6 +84,8 @@ The dataset includes 3000 music genres in a square grid of dimensions `3000 x 30
   - If you're interested in how exactly this value was calculated, you can read about it in the Provenance section of this dataset.
 
 Converted into Pajek format by Vladimir Batagelj (mat2Pajek Mon Feb 10 15:33:27 2025). 
+
+The network is directed. For most applications convert it to an undirected network first.
 
 The complete network is too large to be stored in GitHub. The corresponding [matrix](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.rds) is provided in R data format.
 
