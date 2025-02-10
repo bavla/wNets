@@ -69,6 +69,15 @@ Sources
 - https://github.com/chatox/networks-science-course/tree/master/practicum/data/starwars
 - https://github.com/evelinag/star-wars-network-data
 
+## StarWarsRT
+
+Star Wars Network / undirected, temporal, multi-relational
+
+weight: Number of scenes in which both characters appear together; time 1-7, time=8 merged<br />
+partitions: Number of scenes in which the character appears (i3 - interactions in the episode 3)
+
+Transformed into Pajek format by Vladimir Batagelj (uvFac2Pajek Mon Feb 10 05:04:52 2025)  from  https://github.com/evelinag/star-wars-network-data
+
 ## Spotify
 
 Spotify's top 3000 music genres - Network / closest 10 neighbors
