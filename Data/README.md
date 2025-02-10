@@ -104,6 +104,11 @@ The dataset includes 3000 music genres in a square grid of dimensions `3000 x 30
   - The values are an abstract 'distance'. A small value means those genres are closely related. A big value means those genres are not related.
   - If you're interested in how exactly this value was calculated, you can read about it in the Provenance section of this dataset.
 
+The numerical values are obtained by multiplying the rank (list index) of two genres on each other's lists. For example: If we have genre 'A' and genre 'B':
+  - We store the rank (index) value of 'B' in the list rooted on 'A'
+  - We store the rank (index) value of 'A' in the list rooted on 'B'
+  - We multiply these two values. The result is the distance.
+
 Converted into Pajek format by Vladimir Batagelj (mat2Pajek Mon Feb 10 15:33:27 2025). 
 
 The network is directed. For most applications convert it to an undirected network first.
