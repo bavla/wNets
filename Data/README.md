@@ -73,10 +73,22 @@ Sources
 
 Star Wars Network / undirected, temporal, multi-relational
 
+The creation of the Kaggle Star Wars data is described at
+[GitHub/chatox](https://github.com/chatox/networks-science-course/tree/master/practicum/data/starwars) where we learn that it is based on the data collected by [Evelina Gabasova](https://github.com/evelinag/star-wars-network-data).
+
+Evelina Gabasova. (2016). Star Wars social network (Version 1.0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1411479
+
+Evelina's data are more detailed - they determine a temporal multi-relational weighted network.
+7 episodes determine the time 1-7; time = 8 corresponds to all 7 episodes merged. There are 3 relations: 1-mentions, 2-interactions, and 3-interactions-allCharacters.
+
 weight: Number of scenes in which both characters appear together; time 1-7, time=8 merged<br />
 partitions: Number of scenes in which the character appears (i3 - interactions in the episode 3)
 
 Transformed into Pajek format by Vladimir Batagelj (uvFac2Pajek Mon Feb 10 05:04:52 2025)  from  https://github.com/evelinag/star-wars-network-data
+
+In Pajek, all created Pajek files (network and partitions) were combined into a single Pajek project file ''StarWars.paj''. We manually changed Arcs -> Edges, added some metadata, and made some cleaning.
+
+In Pajek we can now extract subnetworks of our interests.
 
 ## Spotify
 
