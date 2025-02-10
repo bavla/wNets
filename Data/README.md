@@ -85,3 +85,5 @@ The dataset includes 3000 music genres in a square grid of dimensions `3000 x 30
 
 Converted into Pajek format by Vladimir Batagelj (mat2Pajek Mon Feb 10 15:33:27 2025). 
 
+The complete network is too large to be stored in GitHub. The corresponding [matrix](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.rds) is provided in R data format.
+
