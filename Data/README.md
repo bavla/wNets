@@ -108,5 +108,5 @@ Converted into Pajek format by Vladimir Batagelj (mat2Pajek Mon Feb 10 15:33:27 
 
 The network is directed. For most applications convert it to an undirected network first.
 
-The complete network is too large to be stored in GitHub. The corresponding [matrix](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.rds) is provided in R data format.
+The complete network [3000_genres](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.7z)(7z) is quite large. The corresponding [matrix](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.rds) is provided in R data format.
 
