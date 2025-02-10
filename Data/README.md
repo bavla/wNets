@@ -21,7 +21,7 @@
 | [WTtime](https://raw.githubusercontent.com/bavla/wNets/main/Data/WRtime.zip)   | country    | export USD    | n = 238, y = 27      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#WT)     |
 | [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
 | [StarWarsRT](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWars.paj)   | SW character  | # co-apearances    | n = 113, m = 3827, T = 1-7, r = 3      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwarsRT)     |
-| [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | similarity    | n = 3000, mA = 30000      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
+| [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | dissimilarity    | n = 3000, mA = 30000      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
 
 
 
