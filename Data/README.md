@@ -121,9 +121,7 @@ The complete network [3000_genres](https://raw.githubusercontent.com/bavla/wNets
 Musical collaborations between top artists in 2022
 
 Based on the data set posted by Terenci Claramunt on [Kaggle](https://www.kaggle.com/datasets/terencicp/musical-collaborations-between-top-artists-in-2022).
-
 TC used this dataset to create an [interactive network plot](https://public.flourish.studio/story/2151064/) of the collaborations between the top artists on Spotify in 2022.
-
 To obtain the data necessary TC extracted a list of the most popular Spotify artists from [Sveta151's dataset](https://www.kaggle.com/datasets/sveta151/spotify-top-chart-songs-2022).
 
 Afterward, TC used MusicBrainz API to get a list of songs for each artist, including the artists who worked on each song. Then he calculated the number of collaborations for each pair of artists and split the data into a table of artists and a table of collaborations between artists.
