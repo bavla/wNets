@@ -22,6 +22,7 @@
 | [StarWars](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWarsE.net)   | SW character  | # co-apearances    | n = 111, m = 555      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwars)     |
 | [StarWarsRT](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWars.paj)   | SW character  | # co-apearances    | n = 113, m = 3827, T = 1-7, r = 3      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwarsRT)     |
 | [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | dissimilarity    | n = 3000, mA = 30000      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
+| [Spotify top 2022](https://raw.githubusercontent.com/bavla/wNets/main/Data/SpotifyTop22.paj)   | artist  | # collaborations    | n = 309, m = 2445      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify22)     |
 
 
 
@@ -115,3 +116,18 @@ The network is directed. For most applications convert it to an undirected netwo
 
 The complete network [3000_genres](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.7z)(7z) is quite large. The corresponding [matrix](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres.rds) is provided in R data format.
 
+## Spotify22
+
+Musical collaborations between top artists in 2022
+
+Based on the data set posted by Terenci Claramunt on [Kaggle](https://www.kaggle.com/datasets/terencicp/musical-collaborations-between-top-artists-in-2022).
+
+TC used this dataset to create an [interactive network plot](https://public.flourish.studio/story/2151064/) of the collaborations between the top artists on Spotify in 2022.
+
+To obtain the data necessary TC extracted a list of the most popular Spotify artists from [Sveta151's dataset](https://www.kaggle.com/datasets/sveta151/spotify-top-chart-songs-2022).
+
+Afterward, TC used MusicBrainz API to get a list of songs for each artist, including the artists who worked on each song. Then he calculated the number of collaborations for each pair of artists and split the data into a table of artists and a table of collaborations between artists.
+
+Converted into Pajek format by Vladimir Batagelj (uvFac2Pajek Tue Feb 11 07:15:17 2025).
+
+Besides the collaboration network, the file SpotifyTop22.paj contains also the two-mode (Artists, Genres) network, 2 partitions (type.clu: Gender of the artist or Band, country.clu: Country of the artist), and 2 vectors (coSongs.vec: Number of songs in which the artist collaborated, coArtists.vec: Number of artists the artist collaborated with).
