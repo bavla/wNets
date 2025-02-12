@@ -135,7 +135,7 @@ Besides the collaboration network, the file SpotifyTop22.paj contains also the t
 
 Erasmus learning mobility flows between countries since 2014
 
-Data were downloaded as a CSV file from the interactive diagram at the bottom of the page  [[https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-evaluations/statistics/data/learning-mobility-projects|Data visualisation on learning mobility projects]].
+Data were downloaded as a CSV file from the interactive diagram at the bottom of the page  [Data visualisation on learning mobility projects](https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-evaluations/statistics/data/learning-mobility-projects).
 
 Nodes are countries. The weight of an arc (from, to) counts the number of participants from the country from that visited the country to. 
 
