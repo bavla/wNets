@@ -23,11 +23,12 @@
 | [StarWarsRT](https://raw.githubusercontent.com/bavla/wNets/main/Data/StarWars.paj)   | SW character  | # co-apearances    | n = 113, m = 3827, T = 1-7, r = 3      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#starwarsRT)     |
 | [Spotify 10](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | dissimilarity    | n = 3000, mA = 30000      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
 | [Spotify top 2022](https://raw.githubusercontent.com/bavla/wNets/main/Data/SpotifyTop22.paj)   | artist  | # collaborations    | n = 309, m = 2445      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify22)     |
-| [Erasmus 14](https://raw.githubusercontent.com/bavla/wNets/main/Data/3000_genres_c10.net)   | music genre  | dissimilarity    | n = 3000, mA = 30000      | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Spotify)     |
+| [Erasmus 14](https://raw.githubusercontent.com/bavla/wNets/main/Data/ErasmusFlows.net)   | country  | # visitors    | n = 35, mA = 1223     | [desc](https://github.com/bavla/wNets/blob/main/Data/README.md#Erasmus14)     |
 
 
 
-n = 35, mA = 1223
+
+
 ## Trade1985
 
 Data set used in the paper:
@@ -137,6 +138,7 @@ Erasmus learning mobility flows between countries since 2014
 
 Data were downloaded as a CSV file from the interactive diagram at the bottom of the page  [Data visualisation on learning mobility projects](https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-evaluations/statistics/data/learning-mobility-projects).
 
-Nodes are countries. The weight of an arc (from, to) counts the number of participants from the country from that visited the country to. 
+Nodes are countries. The weight of an arc (from, to) counts the number of participants from the country from that visited the country to. [ISO 2-character short names](https://raw.githubusercontent.com/bavla/wNets/main/Data/ErasmusFlowsISO.nam) are available.
+
 
 Converted into Pajek format by Vladimir Batagelj (uvFac2Pajek Wed Feb 12 06:19:43 2025)
