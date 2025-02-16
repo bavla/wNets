@@ -138,7 +138,7 @@ Erasmus learning mobility flows between countries since 2014
 
 Data were downloaded as a CSV file from the interactive diagram at the bottom of the page  [Data visualisation on learning mobility projects](https://erasmus-plus.ec.europa.eu/resources-and-tools/factsheets-statistics-evaluations/statistics/data/learning-mobility-projects).
 
-Nodes are countries. The weight of an arc (from, to) counts the number of participants from the country from that visited the country to. [ISO 2-character short names](https://raw.githubusercontent.com/bavla/wNets/main/Data/ErasmusFlowsISO.nam) are available.
+Nodes are countries. The weight of an arc (from, to) counts the number of participants from the country from that visited the country to. [ISO 2-character short names](https://raw.githubusercontent.com/bavla/wNets/main/Data/ErasmusFlowsISO.nam) and a vector of [total population for each country](https://raw.githubusercontent.com/bavla/wNets/refs/heads/main/Data/PopTotal.vec) are available.
 
 
 Converted into Pajek format by Vladimir Batagelj (uvFac2Pajek Wed Feb 12 06:19:43 2025)
