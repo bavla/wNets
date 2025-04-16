@@ -5,4 +5,4 @@
 - [Compstat 2023, London](./compstat23.pdf).
 - [HiTEc & CoDES 2024, Limassol](./truncated.pdf).
 - [Sunbelt 2025 Workshp/abstract](./Sunbelt-Abstract%20159.pdf).
-- 
+- [1363. sredin seminar, April 16 2025](./sreda1363.pdf)
